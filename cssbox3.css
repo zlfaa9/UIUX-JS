@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+.kotak-kuning {
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.kotak-orange {
+    flex: 1;
+    background-color: orangered;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    gap: 10px;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.kotak-hijau {
+    width: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+.kotak-abu {
+    flex: 1;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.kotak-biru {
+    width: 100px;
+    background-color: deepskyblue;
+    border: 1px solid black;
+}
+
+.footer {
+    height: 50px;
+    background-color: blue;
+    border: 1px solid black;
+}

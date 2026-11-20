@@ -1,0 +1,41 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 320px;
+    margin: 20px auto;
+    gap: 5px;
+}
+
+.baris-atas {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.baris-atas .kotak {
+    flex: 1;
+    height: 25px;
+}
+
+.baris-bawah {
+    display: flex;
+    width: 100%;
+    gap: 3px;
+}
+
+.baris-bawah .kotak {
+    flex: 1;
+    height: 23px;
+}
+
+.kotak {
+    border: 2px solid black;
+    border-radius: 5px;
+     background-color: lightgray;
+}
